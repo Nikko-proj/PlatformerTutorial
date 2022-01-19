@@ -1,3 +1,4 @@
+# Main game file
 import pygame
 import CONSTANTS
 import levels
@@ -13,7 +14,7 @@ def main():
     size = [CONSTANTS.WINDOW_WIDTH, CONSTANTS.WINDOW_HEIGHT]
     screen = pygame.display.set_mode(size)
 
-    pygame.display.set_caption("Megman platformer")
+    pygame.display.set_caption("Megaman platformer")
 
     # Create the player
     player = Player()

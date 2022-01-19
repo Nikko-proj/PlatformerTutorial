@@ -1,3 +1,4 @@
+# Player creation and logic
 import pygame
 import CONSTANTS
 
@@ -32,6 +33,8 @@ class Player(pygame.sprite.Sprite):
 
         sprite_sheet = SpriteSheet("MegamanBN4.png")
         # Load all the right facing images into a list
+        # Contains coordinates from the sprite sheet file used
+        # (x1,y1) to (x2,y2)
         image = sprite_sheet.get_image(3, 88, 24, 29)
         self.walking_frames_r.append(image)
         image = sprite_sheet.get_image(32, 88, 22, 32)

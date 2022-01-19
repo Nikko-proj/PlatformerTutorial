@@ -1,4 +1,4 @@
-# imports and initializes pygame
+# imports constants and initializes pygame
 # Following tutorial on https://realpython.com/pygame-a-primer/
 import CONSTANTS as CTS
 import pygame as pg

@@ -1,4 +1,4 @@
-# Module for managing platforms
+# Module for managing platform and platform logic
 import pygame
 from spritesheet_funct import SpriteSheet
 

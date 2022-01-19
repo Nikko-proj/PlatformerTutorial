@@ -1,4 +1,4 @@
-# Following tutorial at http://programarcadegames.com/ on "Platformer with Sprite Sheets
+# Following tutorial at http://programarcadegames.com/ on "Platformer with Sprite Sheets"
 # This module is used to pull individual sprites from sprite sheets
 
 import pygame
